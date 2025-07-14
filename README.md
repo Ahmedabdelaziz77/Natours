@@ -57,9 +57,9 @@ An awesome full-stack **tour booking platform** built with **Node.js, Express, M
 ---
 
 ## ⚙️ Getting Started Locally
-
-### 1. Clone the repo
 ```bash
+### 1. Clone the repo
+
 git clone https://github.com/Ahmedabdelaziz77/Natours.git
 cd Natours
 2. Install dependencies
