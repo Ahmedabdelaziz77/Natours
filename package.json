@@ -4,7 +4,7 @@
   "description": "Learning node, express and mongoDB",
   "main": "app.js",
   "engines": {
-    "node": "20.x"
+    "node": "^20"
   },
   "scripts": {
     "start": "node server.js",
@@ -12,7 +12,8 @@
     "start:prod": "cross-env NODE_ENV=production nodemon server.js",
     "debug": "ndb server.js",
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
-    "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+    "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
+    "build": "npm run build:js"
   },
   "author": "ahmed",
   "license": "ISC",
@@ -23,6 +24,7 @@
     "bcryptjs": "^3.0.2",
     "compression": "^1.8.0",
     "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
     "cross-env": "^7.0.3",
     "dotenv": "^16.4.5",
     "engines": "^0.4.0",

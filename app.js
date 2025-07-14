@@ -8,6 +8,7 @@ const xss = require('xss-clean');
 const hpp = require('hpp');
 const cookieParser = require('cookie-parser');
 const compression = require('compression');
+const cors = require('cors');
 
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
@@ -19,8 +20,18 @@ const viewRouter = require('./routes/viewRoutes');
 
 // Start express app
 const app = express();
+app.enable('trust proxy'); // Trust first proxy for secure cookies
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
+
+// implement cors
+app.use(cors());
+// app.use(
+//   cors({
+//     origin: 'https://',
+//   }),
+// );
+app.options('*', cors()); // Pre-flight request for all routes
 
 app.use(express.static(path.join(__dirname, 'public')));
 // Set seecurity HTTP headers
