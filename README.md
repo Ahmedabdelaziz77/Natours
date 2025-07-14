@@ -109,15 +109,6 @@ natours/
 ├── server.js
 └── package.json
 🚀 Deployment Guide
-Deploy on Heroku:
-heroku login
-heroku create natours-booking
-heroku config:set CONFIG_KEY=CONFIG_VALUE
-git push heroku master
-heroku open
-Or deploy to Render:
-[Link GitHub repo](https://github.com/Ahmedabdelaziz77/Natours)
-
 Add .env variables in dashboard
 Set start command: npm run start:prod
 ```
