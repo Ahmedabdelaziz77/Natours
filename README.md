@@ -123,12 +123,18 @@ Set start command: npm run start:prod
 ```
 🎯 To-Do (Coming Soon)
  Progressive Web App (PWA) support
+ 
  Recently viewed tours
+ 
  Tour search with filters
+ 
  Two-factor authentication
+ 
  Admin analytics dashboard
 
 🪲 Known Bugs
 First-time page loads on free hosting may be slow.
+
 Stripe test mode only (no live payments).
+
 Email services need proper credentials in .env.
