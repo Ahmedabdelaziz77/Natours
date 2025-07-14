@@ -81,7 +81,7 @@ EMAIL_PASSWORD=yourMailtrapPassword
 EMAIL_FROM=your@email.com
 STRIPE_SECRET_KEY=yourStripeSecretKey
 STRIPE_WEBHOOK_SECRET=yourStripeWebhookSecret
-
+```
 4. Start the app
 npm run dev
 🧪 Testing the API (Postman)
