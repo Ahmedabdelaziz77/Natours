@@ -87,7 +87,7 @@ npm run dev
 🧪 Testing the API (Postman)
 Set your environment variables:
 {{URL}}	http://localhost:3000
-{{password}}	your test password
+{{password}}	test1234
 Useful Endpoints
 GET /api/v1/tours → Get all tours
 GET /api/v1/tours/top-5-cheap → Top 5 cheap tours
