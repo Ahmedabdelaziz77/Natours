@@ -9,7 +9,7 @@ An awesome full-stack **tour booking platform** built with **Node.js, Express, M
 
 ## 🔗 Live Demo
 
-👉 [Visit the Live App](https://)
+👉 [Visit the Live App](https://natours-two-pi.vercel.app/)
 
 ---
 
@@ -109,19 +109,10 @@ natours/
 ├── server.js
 └── package.json
 🚀 Deployment Guide
-Deploy on Heroku:
-heroku login
-heroku create natours-booking
-heroku config:set CONFIG_KEY=CONFIG_VALUE
-git push heroku master
-heroku open
-Or deploy to Render:
-[Link GitHub repo](https://github.com/Ahmedabdelaziz77/Natours)
-
 Add .env variables in dashboard
 Set start command: npm run start:prod
 ```
-🎯 To-Do (Coming Soon)
+🎯 To-Do
  - Progressive Web App (PWA) support
  - Recently viewed tours
  - Tour search with filters
