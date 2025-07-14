@@ -112,7 +112,7 @@ natours/
 Add .env variables in dashboard
 Set start command: npm run start:prod
 ```
-🎯 To-Do (Coming Soon)
+🎯 To-Do
  - Progressive Web App (PWA) support
  - Recently viewed tours
  - Tour search with filters
