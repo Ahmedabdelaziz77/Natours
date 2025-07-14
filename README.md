@@ -1,5 +1,5 @@
 # 🗺️ Natours – Tour Booking Web App
- ![](<img width="297" height="297" alt="Image" src="https://github.com/user-attachments/assets/546e36c3-0a68-4466-b5b6-fe76bf853361" />) |
+<img width="297" height="297" alt="Image" src="https://github.com/user-attachments/assets/546e36c3-0a68-4466-b5b6-fe76bf853361" />
 An awesome full-stack **tour booking platform** built with **Node.js, Express, MongoDB, Stripe**, and more! The app supports **secure authentication**, **role-based access control**, **real-time online payments**, **booking management**, **tour reviews**, **user profiles**, and a powerful **admin dashboard**. This project is part of the Node.js bootcamp by [Jonas Schmedtmann](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/).
 
 ---
